@@ -47,6 +47,7 @@ iface = gr.Interface(
         ["test\n测试"]
     ],
     allow_flagging="never",
+    cache_examples=False,
 )
 
 debug = False

@@ -1,4 +1,12 @@
 [[package]]
+name = "about-time"
+version = "4.1.0"
+description = "Easily measure timing and throughput of code blocks, with beautiful human friendly representations."
+category = "main"
+optional = false
+python-versions = ">=3.7, <4"
+
+[[package]]
 name = "astroid"
 version = "2.11.7"
 description = "An abstract syntax tree for Python with inference support."
@@ -536,9 +544,13 @@ python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8.3"
-content-hash = "3ebd832872060b7bc7a8a30dd9d0d64bb3dd2ddbb5a8f6879832a0d975f73583"
+content-hash = "4bce03f707545c43d26c7d65af46dc000e185109352eb09f87059bf6ca68fa7b"
 
 [metadata.files]
+about-time = [
+    {file = "about-time-4.1.0.tar.gz", hash = "sha256:963b1f3739b0c9732eb205031762b76f1291d89b5d0c8220a8d5b154e32ce650"},
+    {file = "about_time-4.1.0-py3-none-any.whl", hash = "sha256:fdf24423c4322ee32fa1338ff4b11f704b649427110290f94bfe4e16ad246f18"},
+]
 astroid = [
     {file = "astroid-2.11.7-py3-none-any.whl", hash = "sha256:86b0a340a512c65abf4368b80252754cda17c02cdbbd3f587dddf98112233e7b"},
     {file = "astroid-2.11.7.tar.gz", hash = "sha256:bb24615c77f4837c707669d16907331374ae8a964650a66999da3f5ca68dc946"},
